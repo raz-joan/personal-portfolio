@@ -1,0 +1,86 @@
+@import '_variables.scss';
+@import '_mixins.scss';
+
+header{
+  @include flex(space-evenly, center);
+  background-color: $grey;
+  height: 20vh;
+
+  h1 {
+    color: $off-white;
+    font-family: $cursive;
+    font-size: 64px;
+    cursor: pointer;
+  }
+
+  nav {
+    @include flex(space-evenly, center);
+    height: 100%;
+    width: 25%;
+    
+    a {
+      color: $off-white;
+      font-size: 16px;
+      text-decoration: none;
+      padding: 2% 4%;
+      border-radius: 50px;
+      cursor: pointer;
+
+      &:hover {
+        color: $grey;
+        background-color: $off-white;
+      } 
+    }
+  }
+}
+
+main {
+  @include flex(space-evenly, center);
+  height: 80vh;
+  width: 100%;
+
+  .title-pic-container {
+    @include flex(center, center, column);
+    height: 80%;
+    width: 25%;
+    
+    img {
+      height: 250px;
+      width: 250px;
+      border-radius: 150px;
+      box-shadow: 0.25px 2px 4px 0.5px $grey;
+    }
+
+    .link-container {
+      @include flex(center, center);
+      width: 100%;
+      margin-top: 10%;
+
+      .icon {
+        height: 30px;
+        width: 30px;
+        color: $grey;
+        margin: 0 7px;
+      }
+    }
+
+  }
+
+  .info-container {
+    @include flex(center, flex-start, column);
+    height: 80%;
+    width: 50%;
+
+    h2 {
+      font-family: $cursive;
+      font-size: 32px;
+      margin: 2% 0;
+    }
+  
+    p {
+      font-family: $print;
+      font-size: 16px;
+      margin: 2% 0;
+    }
+  }
+}
