@@ -1,5 +1,8 @@
 import React, {useState} from 'react'
 import '../SassStyles/Book.scss'
+import grandma from '../Assets/grandma.jpg'
+import mathImg from '../Assets/mathImg.png'
+import baker from '../Assets/baker.JPG'
 
 const Book = () => {
   const numOfPages = 3
@@ -79,12 +82,13 @@ const Book = () => {
         <div className={`paper p1 ${p1Flip}`}>
           <div className="front">
             <div className="f1 front-content">
-              <h1>Front 1</h1>
+              <h1>My Favorite Things</h1>
             </div>
           </div>
           <div className="back">
             <div className="b1 back-content">
-              <h1>Back 1</h1>
+              <h1>My grandmother teaching me how to balance.</h1>
+              <img className='book-cover-img' src={grandma} alt='Joan and Grandma balancing on one leg.'/>
             </div>
           </div>
         </div>
@@ -94,12 +98,19 @@ const Book = () => {
         <div className={`paper p2 ${p2Flip}`}>
           <div className="front">
             <div className="f2 front-content">
-              <h1>Front 2</h1>
+              <h1>The Five Earth Touchings</h1>
+              <p>In gratitude, I bow to all generations of ancestors in my blood family.</p>
+              <p>In gratitude, I bow to all generations of ancestors in my spiritual family.</p>
+              <p>In gratitude, I bow to this land and all of the ancestors who made it available.</p>
+              <p>In gratitude and compassion, I bow down and transmit my energy to those I love.</p>
+              <p>In understanding and compassion, I bow down to reconcile myself with all those who have made me suffer.</p>
             </div>
           </div>
           <div className="back">
             <div className="b2 back-content">
-              <h1>Back 2</h1>
+              <h1>The Poetry of Logical Ideas.</h1>
+              <img className='book-cover-img' src={mathImg} alt='Mathematics is the study of things that come out a certain way because there is no other way they could possibly be.'/>
+              <p>My favorite mathematical endeavors were crafting concise, creative, and elegant proofs to theoretical problems. In particular, those that arose while studying (ordered) set theory and graph theory.</p>
             </div>
           </div>
         </div>
@@ -109,12 +120,14 @@ const Book = () => {
         <div className={`paper p3 ${p3Flip}`}>
           <div className="front">
             <div className="f3 front-content">
-              <h1>Front 3</h1>
+              <h1>Sourdough Fermentation</h1>
+              <img className='book-cover-img' src={baker} alt='Joan holding bread.'/>
+              <p>"Hearing, touching, smelling, seeing, and tasting -- bread is about all of these. The bread is always talking to us, and only when we open ourselves fully -- mind and senses together -- do we slowly begin to learn the subtle, but quite articulate, language of bread." - Jeffery Hamelman</p>
             </div>
           </div>
           <div className="back">
             <div className="b3 back-content">
-              <h1>Back 3</h1>
+              <h1>This is a wonderful day. I have never seen this one before. - Maya Angelou</h1>
             </div>
           </div>
         </div>
@@ -126,3 +139,25 @@ const Book = () => {
 }
 
 export default Book
+
+/* This is a wonderful day. I have never seen this one before. - Maya Angelou */
+
+/*
+Mathematics is the study of things that come out a certain way because there is no other way they could possibly be.
+The poetry of logical ideas.
+My favorite mathematical endeavors were crafting concise, creative, and elegant proofs to theoretical problems. In particular, those that arose while studying (ordered) set theory & graph theory.
+*/
+
+/*
+Hearing, touching, smelling, seeing, and tasting -- bread is about all of these. The
+bread is always talking to us, and only when we open ourselves fully -- mind and senses together -- do we slowly begin to learn the subtle, but quite articulate, language of bread. Jeffery Hamelman
+*/
+  
+/*
+In gratitude, I bow to all generations of ancestors in my blood family.
+In gratitude, I bow to all generations of ancestors in my spiritual family.
+In gratitude, I bow to this land and all of the ancestors who made it available.
+In gratitude and compassion, I bow down and transmit my energy to those I love.
+In understanding and compassion, I bow down to reconcile myself with all those who have made me suffer.
+(The Five Earth Touchings)
+*/

@@ -21,6 +21,43 @@ button {
     transition: transform 0.5s;
 }
 
+.front .f1,
+.back .b3 {
+  h1 {
+    font-family: $cursive;
+    font-size: 28px;
+    width: 80%;
+  }
+}
+
+.back .b1,
+.front .f2,
+.back .b2,
+.front .f3 {
+  @include flex(space-evenly, center, column);
+  
+  h1 {
+    font-family: $cursive;
+  }
+  
+  p {
+    width: 80%;
+  }
+}
+
+.back .b2,
+.front .f3 {
+  p {
+    font-size: 12px;
+  }
+}
+
+.book-cover-img {
+  width: 252px;
+  height: 337px;
+  box-shadow: 0.25px 2px 4px 0.5px $grey;
+}
+
 .paper {
     position: absolute;
     width: 100%;
