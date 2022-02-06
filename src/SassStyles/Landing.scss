@@ -1,0 +1,47 @@
+@import './mixins.scss';
+@import './variables.scss';
+
+.title-pic-container {
+  @include flex(center, center, column);
+  height: 80%;
+  width: 25%;
+  
+  img {
+    height: 250px;
+    width: 250px;
+    border-radius: 150px;
+    box-shadow: 0.25px 2px 4px 0.5px $grey;
+  }
+
+  .link-container {
+    @include flex(center, center);
+    width: 100%;
+    margin-top: 10%;
+
+    .icon {
+      height: 30px;
+      width: 30px;
+      color: $grey;
+      margin: 0 7px;
+    }
+  }
+
+}
+
+.info-container {
+  @include flex(center, flex-start, column);
+  height: 80%;
+  width: 50%;
+
+  h2 {
+    font-family: $cursive;
+    font-size: 32px;
+    margin: 2% 0;
+  }
+
+  p {
+    font-family: $print;
+    font-size: 16px;
+    margin: 2% 0;
+  }
+}
