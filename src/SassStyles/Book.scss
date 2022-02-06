@@ -1,0 +1,110 @@
+@import '_mixins.scss';
+@import '_variables.scss';
+
+/* Page layout */
+.book-btn-container {
+  @include flex(space-between, center);
+  margin: auto 5%;
+  width: 90%;
+}
+
+/* Buttons */
+button {
+  @include button()
+}
+
+/* Book */
+.book {
+    position: relative;
+    width: 350px;
+    height: 500px;
+    transition: transform 0.5s;
+}
+
+.paper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    perspective: 1500px;
+}
+
+.front,
+.back {
+    background-color: white;
+    border: 1px solid $grey;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform-origin: left;
+    transition: transform 0.5s;
+}
+
+.front {
+    z-index: 1;
+    backface-visibility: hidden;
+    border-left: 3px solid $grey;
+}
+
+.back {
+    z-index: 0;
+}
+
+.front-content,
+.back-content {
+    width: 100%;
+    height: 100%;
+    @include flex(center, center);
+}
+
+.back-content {
+    transform: rotateY(180deg);
+}
+
+/* Paper stack order */
+.p1 {
+    z-index: 3;
+}
+
+.p2 {
+    z-index: 2;
+}
+
+.p3 {
+    z-index: 1;
+}
+
+/* Paper flip effect */
+.flipped .front,
+.flipped .back {
+  transform: rotateY(-180deg);
+}
+
+.flippedP1 {
+  z-index: 1;
+}
+
+.flippedP2 {
+  z-index: 2;
+}
+
+.flippedP3 {
+  z-index: 3;
+}
+
+
+/* Book open & close and button effects */
+.openBook {
+  transform: translateX(50%);
+}
+
+.closeBookBeginning {
+  transform: translateX(0%);
+}
+
+.closeBookEnd {
+  transform: translateX(100%);
+}
