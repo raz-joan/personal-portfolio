@@ -16,7 +16,7 @@ function App() {
           <a href={resume}>Resume</a>
           <Link to="/tech-projects">Tech Projects</Link>
           <Link to="/other-work">Other Work</Link>
-          <Link to="/book">Book</Link>
+          <Link to="/book">More About Me</Link>
         </nav>
       </header>
       <main>

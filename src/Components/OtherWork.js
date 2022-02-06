@@ -6,6 +6,8 @@ import starterCover from '../Assets/starterCover.png'
 import EveryDaySourdoughStarter from '../Assets/EveryDaySourdoughStarter.pdf'
 import WheatBooklet from '../Assets/WheatBooklet.pdf'
 import WheatCover from '../Assets/WheatCover.png'
+import breadRecipe from '../Assets/breadRecipe.png'
+import TurkeyRedBread from '../Assets/TurkeyRedBread.pdf'
 
 const OtherWork = () => {
   return (
@@ -23,6 +25,10 @@ const OtherWork = () => {
         <div className='work'>
           <img className="work-img" src={WheatCover} alt="Wheat Zine Cover"/>
           <a href={WheatBooklet} className="work-link">Moxie Wheat Pocket Zine</a>
+        </div>
+        <div className='work'>
+          <img className="work-img" src={breadRecipe} alt="Sourdough Bread Recipe Cover" />
+          <a href={TurkeyRedBread} className="work-link">Sourdough Bread Recipe</a>
         </div>
       </div>
     </div>

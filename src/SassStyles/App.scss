@@ -20,7 +20,7 @@ header{
   nav {
     @include flex(space-evenly, center);
     height: 100%;
-    width: 35%;
+    width: 45%;
     
     a {
       color: $off-white;
