@@ -26,7 +26,7 @@ button {
   h1 {
     font-family: $cursive;
     font-size: 28px;
-    width: 80%;
+    max-width: 80%;
   }
 }
 
@@ -38,17 +38,11 @@ button {
   
   h1 {
     font-family: $cursive;
+    font-size: 22px;
   }
   
   p {
-    width: 80%;
-  }
-}
-
-.back .b2,
-.front .f3 {
-  p {
-    font-size: 12px;
+    max-width: 80%;
   }
 }
 
