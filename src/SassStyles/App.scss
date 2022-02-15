@@ -3,18 +3,27 @@
 
 header{
   @include flex(space-evenly, center);
-  background-color: $grey;
-  height: 20vh;
+  // background-color: $grey;
+  background-color: $off-white;
+  height: 18vh;
+  // box-shadow: 0.25px 2px 4px 0.5px $grey;
 
   a {
     text-decoration: none;
   }
 
   h1 {
-    color: $off-white;
+    // color: $off-white;
+    color: $grey;
     font-family: $cursive;
     font-size: 64px;
     cursor: pointer;
+
+    &:hover {
+      transform: scale(1.1);
+      transition: .5s;
+      color: $gold;
+    }
   }
 
   nav {
@@ -23,7 +32,8 @@ header{
     width: 45%;
     
     a {
-      color: $off-white;
+      // color: $off-white;
+      color: $grey;
       font-size: 16px;
       text-decoration: none;
       padding: 2% 4%;
@@ -31,8 +41,15 @@ header{
       cursor: pointer;
 
       &:hover {
-        color: $grey;
-        background-color: $off-white;
+        // color: $grey;
+        // background-color: $off-white;
+        transform: scale(1.5);
+        transition: .5s;
+        // color: $gold;
+        // color: $off-white;
+        // background-color: $grey;
+        color: $red;
+        // box-shadow: 0.25px 2px 4px 0.5px $grey;        
       } 
     }
   }
@@ -40,7 +57,7 @@ header{
 
 main {
   @include flex(space-evenly, center);
-  height: 80vh;
+  height: 82vh;
   width: 100%;
 
   .error {

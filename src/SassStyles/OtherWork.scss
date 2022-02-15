@@ -19,15 +19,21 @@
     color: $grey;
     font-size: 14px;
     text-align: center;
+    // text-decoration: none;
     border-radius: 50px;
     padding: 1% 3%;
     margin: 2% auto;
     cursor: pointer;
 
+    // &:hover {
+    //   color: $off-white;
+    //   background-color: $grey;
+    // }
     &:hover {
-      color: $off-white;
-      background-color: $grey;
-    } 
+      transform: scale(1.25);
+      transition: .5s;
+      color: $green;
+    }
   }
 
   .work {

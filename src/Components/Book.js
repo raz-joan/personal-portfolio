@@ -87,7 +87,7 @@ const Book = () => {
           </div>
           <div className="back">
             <div className="b1 back-content">
-              <h1>My grandmother</h1>
+              <h1>My Grandmother</h1>
               <p>She taught me all about balance 🖤</p>
               <img className='book-cover-img' src={grandma} alt='Joan and Grandma balancing on one leg.'/>
             </div>

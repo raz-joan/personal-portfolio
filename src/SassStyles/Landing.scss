@@ -23,6 +23,12 @@
       width: 30px;
       color: $grey;
       margin: 0 7px;
+
+      &:hover {
+        transform: scale(1.5);
+        transition: .5s;
+        color: $green;
+      }
     }
   }
 
