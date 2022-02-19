@@ -22,7 +22,7 @@ const TechProjects = () => {
           <a href='https://github.com/Fair-Trade-Grains'>Project Repos</a>
           <p>Group Project of 5 (2FE, 3BE)</p>
           <p>Goal: This app provides a platform to connect farmers with food makers in the emerging market of specialty grains.</p>
-          <p>FE Technologies: React, Router, JavaScript, JSX, CSS, GraphQL, Apollo-Client, RESTful API, Postman, Cypress, Cloudinary, Circle CI, Heroku, Excalidraw, Figma, Miro, GH Project Boards, Slack</p>
+          <p>FE Technologies: React, React Router, JavaScript, JSX, CSS, GraphQL, Apollo-Client, RESTful API, Postman, Cypress, Cloudinary, Circle CI, Heroku, Excalidraw, Figma, Miro, GH Project Boards, Slack</p>
           <p>Achievments: Learned GraphQL. Agile team collaboration. Photo hosting. Email functionality. JSON contract. React modals. Responsive design. Live filtering.</p>
         </div>
       </div>
@@ -41,7 +41,7 @@ const TechProjects = () => {
           </div>
           <p>Solo Project</p>
           <p>Goal: This app allows a boutique flour mill to help its users learn about unique grains and share reviews with others.</p>
-          <p>Technologies: Node.js, Express.js, Postman, babel, nanoid.js, CORS, React, React Router, JavaScript, JSX, Sass, fetchAPI, Cypress, Wave, Lighthouse, Heroku, Excalidraw, Excalidraw, Figma, GH Project Boards</p>
+          <p>Technologies: Node.js, Express.js, Postman, babel, nanoid.js, CORS, React, React Router, JavaScript, JSX, Sass, RESTful API, Cypress, Wave, Lighthouse, Heroku, Excalidraw, Excalidraw, Figma, GH Project Boards</p>
           <p>Achievments: Learned Express.js and hand-rolled the backend API. Robust planning and tracking. Cypress testing. Accessibility. Responsive design.</p>
         </div>
       </div>
@@ -57,7 +57,7 @@ const TechProjects = () => {
           <a href='https://github.com/colganmeanor/Board-Game-Bartender'>Project Repo</a>
           <p>Group Project of 3 (all FE)</p>
           <p>Goal: This app allows a user to plan a game night by pairing a board game with a cocktail and to favorite a cocktail.</p>
-          <p>Technologies: React, React Router, Redux, JavaScript, JSX, CSS, fetchAPI, Cypress, GH pages, Excalidraw, Figma, GH Project Boards, Slack</p>
+          <p>Technologies: React, React Router, Redux, JavaScript, JSX, CSS, RESTful API, Cypress, GH pages, Excalidraw, Figma, GH Project Boards, Slack</p>
           <p>Achievments: Learned GSM and Redux. Accessibility. Responsive design. Asynchronous functionality. Data persists using local storage. Successful team collaboration.</p>
         </div>
       </div>
