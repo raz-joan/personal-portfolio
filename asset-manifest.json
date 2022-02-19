@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.7dc249bf.css",
+    "main.js": "/personal-portfolio/static/js/main.da039b77.js",
+    "static/media/sourdoughBread.pdf": "/personal-portfolio/static/media/sourdoughBread.77aa67662cf8057470ba.pdf",
+    "static/media/PilgrimPassport.pdf": "/personal-portfolio/static/media/PilgrimPassport.73e48e06ea0746201731.pdf",
+    "static/media/wheatcute.png": "/personal-portfolio/static/media/wheatcute.7f64ed20fbc1fc104bfc.png",
+    "static/media/baker.JPG": "/personal-portfolio/static/media/baker.54fffb811e0c64e18ceb.JPG",
+    "static/media/theFlourStudio.png": "/personal-portfolio/static/media/theFlourStudio.58fd196db604392ade42.png",
+    "static/media/PresidentialCroquet.jpg": "/personal-portfolio/static/media/PresidentialCroquet.f154020e1400ac239e92.jpg",
+    "static/media/travelTracker.png": "/personal-portfolio/static/media/travelTracker.c6aa77a68d6e3488d0fb.png",
+    "static/media/Crawfish.jpg": "/personal-portfolio/static/media/Crawfish.0a34bcfc42efe5d452a7.jpg",
+    "static/media/boardGameBartender.png": "/personal-portfolio/static/media/boardGameBartender.fd78f3faaf01f10f88f3.png",
+    "static/media/pilgrimPassportCover.png": "/personal-portfolio/static/media/pilgrimPassportCover.5fe91731e48d2e20f30e.png",
+    "static/media/WheatBooklet.pdf": "/personal-portfolio/static/media/WheatBooklet.adbba8b111bb55fa054a.pdf",
+    "static/media/presidents.pdf": "/personal-portfolio/static/media/presidents.bc176c9e356eaab6002d.pdf",
+    "static/media/TurkeyRedBread.pdf": "/personal-portfolio/static/media/TurkeyRedBread.4a26a46e725a0eb9d670.pdf",
+    "static/media/ticTacToe.png": "/personal-portfolio/static/media/ticTacToe.50a1f7d96fdfa9536550.png",
+    "static/media/EveryDaySourdoughStarter.pdf": "/personal-portfolio/static/media/EveryDaySourdoughStarter.b924b12a94e812540be0.pdf",
+    "static/media/grandma.jpg": "/personal-portfolio/static/media/grandma.ffd0cd261fb2c12fe816.jpg",
+    "static/media/breadBookletCover.png": "/personal-portfolio/static/media/breadBookletCover.4c59d78da5088057ea2f.png",
+    "static/media/mathImg.png": "/personal-portfolio/static/media/mathImg.36a3d121e2df94e9c671.png",
+    "static/media/mlkCover.png": "/personal-portfolio/static/media/mlkCover.09d847afc5948c702a03.png",
+    "static/media/croquetCover.png": "/personal-portfolio/static/media/croquetCover.c43b6e99bf469253f60f.png",
+    "static/media/eclipseStencil.JPG": "/personal-portfolio/static/media/eclipseStencil.d4c8418bc27a1d60883d.JPG",
+    "static/media/solarEclipseCover.png": "/personal-portfolio/static/media/solarEclipseCover.e35eeac8384438cce496.png",
+    "static/media/profileHeadshot.jpeg": "/personal-portfolio/static/media/profileHeadshot.c908290f5c57764386b4.jpeg",
+    "static/media/mlkStencil.JPG": "/personal-portfolio/static/media/mlkStencil.68b9888d82fa93484e76.JPG",
+    "static/media/breadRecipe.png": "/personal-portfolio/static/media/breadRecipe.388c91ed4c3ae4656b9c.png",
+    "static/media/crawfishCover.png": "/personal-portfolio/static/media/crawfishCover.7d4124fc05be7123b231.png",
+    "static/media/WheatCover.png": "/personal-portfolio/static/media/WheatCover.1d1d60e95fc6e326252e.png",
+    "static/media/starterCover.png": "/personal-portfolio/static/media/starterCover.c64df255453ca2d22b20.png",
+    "static/media/presidentsCover.png": "/personal-portfolio/static/media/presidentsCover.11b8382087c6353a4c2c.png",
+    "static/media/resume.pdf": "/personal-portfolio/static/media/resume.c64752a4cef268dc91c8.pdf",
+    "index.html": "/personal-portfolio/index.html",
+    "main.7dc249bf.css.map": "/personal-portfolio/static/css/main.7dc249bf.css.map",
+    "main.da039b77.js.map": "/personal-portfolio/static/js/main.da039b77.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7dc249bf.css",
+    "static/js/main.da039b77.js"
+  ]
+}
