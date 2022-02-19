@@ -23,7 +23,7 @@ const TechProjects = () => {
           <p>Group Project of 5 (2FE, 3BE)</p>
           <p>Goal: This app provides a platform to connect farmers with food makers in the emerging market of specialty grains.</p>
           <p>FE Technologies: React, React Router, JavaScript, JSX, CSS, GraphQL, Apollo-Client, RESTful API, Postman, Cypress, Cloudinary, Circle CI, Heroku, Excalidraw, Figma, Miro, GH Project Boards, Slack</p>
-          <p>Achievments: Learned GraphQL. Agile team collaboration. Photo hosting. Email functionality. JSON contract. React modals. Responsive design. Live filtering.</p>
+          <p>Achievements: Learned GraphQL. Agile team collaboration. Photo hosting. Email functionality. JSON contract. React modals. Responsive design. Live filtering.</p>
         </div>
       </div>
 
@@ -42,7 +42,7 @@ const TechProjects = () => {
           <p>Solo Project</p>
           <p>Goal: This app allows a boutique flour mill to help its users learn about unique grains and share reviews with others.</p>
           <p>Technologies: Node.js, Express.js, Postman, babel, nanoid.js, CORS, React, React Router, JavaScript, JSX, Sass, RESTful API, Cypress, Wave, Lighthouse, Heroku, Excalidraw, Figma, GH Project Boards</p>
-          <p>Achievments: Learned Express.js and hand-rolled the backend API. Robust planning and tracking. Cypress testing. Accessibility. Responsive design.</p>
+          <p>Achievements: Learned Express.js and hand-rolled the backend API. Robust planning and tracking. Cypress testing. Accessibility. Responsive design.</p>
         </div>
       </div>
 
@@ -58,7 +58,7 @@ const TechProjects = () => {
           <p>Group Project of 3 (all FE)</p>
           <p>Goal: This app allows a user to plan a game night by pairing a board game with a cocktail and to favorite a cocktail.</p>
           <p>Technologies: React, React Router, Redux, JavaScript, JSX, CSS, RESTful API, Cypress, GH pages, Excalidraw, Figma, GH Project Boards, Slack</p>
-          <p>Achievments: Learned GSM and Redux. Accessibility. Responsive design. Asynchronous functionality. Data persists using local storage. Successful team collaboration.</p>
+          <p>Achievements: Learned GSM and Redux. Accessibility. Responsive design. Asynchronous functionality. Data persists using local storage. Successful team collaboration.</p>
         </div>
       </div>
 
@@ -73,7 +73,7 @@ const TechProjects = () => {
           <p>Solo Project</p>
           <p>Goal: This vanilla JavaScript app has a login, a dashboard view, and allows a user to request a new trip.</p>
           <p>Technologies: JavaScript, HTML, Sass, Mocha, Chai, RESTful API, Lighthouse, Day.js, Glide.js, Excalidraw</p>
-          <p>Achievments: Clean, modular code base. Error handling. Accessibility. Unit testing. Responsive design.</p>
+          <p>Achievements: Clean, modular code base. Error handling. Accessibility. Unit testing. Responsive design.</p>
         </div>
       </div>
 
@@ -89,7 +89,7 @@ const TechProjects = () => {
           <p>Solo Project</p>
           <p>Goal: This vanilla JavaScript app allows a user to play tic-tac-toe and displays the current scores.</p>
           <p>Technologies: JavaScript, HTML, CSS, Excalidraw, GH Pages</p>
-          <p>Achievments: Responsive layout. Light and Dark mode.</p>
+          <p>Achievements: Responsive layout. Light and Dark mode.</p>
         </div>
       </div>
     </div>
