@@ -5,7 +5,7 @@ import '../SassStyles/Landing.scss'
 
 const Landing = () => {
   return (
-    <>
+    <div className='landing-container'>
       <div className="title-pic-container">
         <img src={headshot} alt="headshot of website author" />
         <div className="link-container">
@@ -21,7 +21,7 @@ const Landing = () => {
         <p>Other than writing code, my passions are baking, traveling, reading, gravel biking, and trail running.</p>
         <p>If you'd like to be in touch, then please email me! raz.joan@gmail.com</p>
       </div>
-    </>
+    </div>
     
   )
 }

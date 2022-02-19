@@ -4,8 +4,9 @@
 /* Page layout */
 .book-btn-container {
   @include flex(space-between, center);
-  margin: auto 5%;
+  height: 90%;
   width: 90%;
+  // margin: auto 5%;
 }
 
 /* Buttons */

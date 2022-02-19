@@ -1,6 +1,12 @@
 @import './mixins.scss';
 @import './variables.scss';
 
+.landing-container {
+  @include flex(space-evenly, center);
+  height: 100%;
+  width: 100%;
+}
+
 .title-pic-container {
   @include flex(center, center, column);
   height: 80%;
