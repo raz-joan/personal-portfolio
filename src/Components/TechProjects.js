@@ -10,7 +10,7 @@ const TechProjects = () => {
   return (
     <div className='tech-projects-container'>
 
-      <p className='projects-note'>(( Those that I am most proud of. Most recent to oldest. 👩🏼‍💻 ))</p>
+      <p className='projects-note'>(( Descending chronological order ... ))</p>
       {/* Project 1 */}
       <div className='project'>
         <div className='project-img-container'>
