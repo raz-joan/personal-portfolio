@@ -10,7 +10,7 @@ const TechProjects = () => {
   return (
     <div className='tech-projects-container'>
 
-      <p className='projects-note'>(( Most recent to oldest 👩🏼‍💻 ))</p>
+      <p className='projects-note'>(( Those that I am most proud of. Most recent to oldest. 👩🏼‍💻 ))</p>
       {/* Project 1 */}
       <div className='project'>
         <div className='project-img-container'>
@@ -36,12 +36,12 @@ const TechProjects = () => {
           <h2 className='project-title'>The Flour Studio</h2>
           <a href='https://the-flour-studio.herokuapp.com/'>Deployed App</a>
           <div className='two-repo-links'>
-            <a href='https://github.com/raz-joan/the-flour-studio-ui'>Project Repo (UI)</a>
-            <a href='https://github.com/raz-joan/the-flour-studio-api'>Project Repo (API)</a>
+            <a href='https://github.com/raz-joan/the-flour-studio-api'>API Project Repo</a>
+            <a href='https://github.com/raz-joan/the-flour-studio-ui'>UI Project Repo</a>
           </div>
           <p>Solo Project</p>
           <p>Goal: This app allows a boutique flour mill to help its users learn about unique grains and share reviews with others.</p>
-          <p>Technologies: Node.js, Express.js, Postman, babel, nanoid.js, CORS, React, React Router, JavaScript, JSX, Sass, RESTful API, Cypress, Wave, Lighthouse, Heroku, Excalidraw, Excalidraw, Figma, GH Project Boards</p>
+          <p>Technologies: Node.js, Express.js, Postman, babel, nanoid.js, CORS, React, React Router, JavaScript, JSX, Sass, RESTful API, Cypress, Wave, Lighthouse, Heroku, Excalidraw, Figma, GH Project Boards</p>
           <p>Achievments: Learned Express.js and hand-rolled the backend API. Robust planning and tracking. Cypress testing. Accessibility. Responsive design.</p>
         </div>
       </div>

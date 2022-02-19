@@ -62,7 +62,6 @@ const Book = () => {
           setP2Flip('')
           break;
         case 4:
-          // openBook()
           setP3Flip('')
           break;
         case 5:
@@ -80,6 +79,7 @@ const Book = () => {
   return (
     <div className="book-btn-container">
       <button onClick={() => { goPrevPage() }}>Previous</button>
+      <p className='no-book'>A larger screen size is needed to view the book!</p>
 
       {/* Book */}
       

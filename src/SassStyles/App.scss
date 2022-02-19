@@ -3,17 +3,14 @@
 
 header{
   @include flex(space-evenly, center);
-  // background-color: $grey;
   background-color: $off-white;
   height: 20vh;
-  // box-shadow: 0.25px 2px 4px 0.5px $grey;
 
   a {
     text-decoration: none;
   }
 
   h1 {
-    // color: $off-white;
     color: $grey;
     font-family: $cursive;
     font-size: 64px;
@@ -32,7 +29,6 @@ header{
     width: 45%;
     
     a {
-      // color: $off-white;
       color: $grey;
       font-size: 16px;
       text-decoration: none;
@@ -41,15 +37,9 @@ header{
       cursor: pointer;
 
       &:hover {
-        // color: $grey;
-        // background-color: $off-white;
         transform: scale(1.5);
         transition: .5s;
-        // color: $gold;
-        // color: $off-white;
-        // background-color: $grey;
         color: $red;
-        // box-shadow: 0.25px 2px 4px 0.5px $grey;        
       } 
     }
   }
@@ -57,11 +47,26 @@ header{
 
 main {
   @include flex(space-evenly, center);
-  height: 82vh;
   width: 100%;
 
   .error {
     font-size: 30px;
     color: $grey;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  header {
+    @include flex(space-evenly, center, column);
+    height: 25vh;
+
+    h1 {
+      font-size: 46px;
+    }
+
+    nav {
+      height: 50%;
+      width: 90%;
+    }
   }
 }

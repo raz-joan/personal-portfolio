@@ -4,47 +4,34 @@
 /* Page layout */
 .book-btn-container {
   @include flex(space-between, center);
-  height: 90%;
   width: 90%;
-  // margin: auto 5%;
 }
 
 /* Buttons */
 button {
-  // @include button()
-
-  // color: $off-white;
   color: $grey;
   background-color: $off-white;
   font-size: 20px;
   border: none;
-  // text-decoration: none;
-  // padding: 1% 2%;
-  // border: 1px solid $grey;
-  // border-radius: 50px;
   cursor: pointer;
 
   &:hover {
-    // color: $grey;
-    // background-color: $off-white;
     transform: scale(1.5);
     transition: .5s;
-    // color: $gold;
-    // color: $off-white;
-    // background-color: $grey;
     color: $green;
-    // border-radius: 50px;
-    // box-shadow: 0.25px 2px 4px 0.5px $grey;
-    // padding: 0.5% 1%;
   } 
+}
+
+.no-book {
+  display: none;
 }
 
 /* Book */
 .book {
-    position: relative;
-    width: 350px;
-    height: 500px;
-    transition: transform 0.5s;
+  position: relative;
+  width: 350px;
+  height: 500px;
+  transition: transform 0.5s;
 }
 
 .front .f1,
@@ -174,4 +161,74 @@ button {
 
 .closeBookEnd {
   transform: translateX(100%);
+}
+
+@media screen and (max-width: 1000px) {
+  .book-btn-container {
+    @include flex(space-between, center, column);
+    width: 90%;
+    margin-bottom: 2%;
+    
+    .book {
+      margin: 2%;
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .book-btn-container {
+    @include flex(space-between, center, column);
+    width: 90%;
+    margin-bottom: 2%;
+    
+    .book {
+      width: 245px;
+      height: 350px;
+      margin: 2%;
+    }
+
+    .front .f1,
+    .back .b4 {
+      h1 {
+        font-size: 20px;
+      }
+    }
+
+    .back .b1,
+    .front .f2,
+    .back .b2,
+    .front .f3,
+    .back .b3,
+    .front .f4 {
+      h1 {
+        font-size: 16px;
+      }
+      
+      p {
+        font-size: 12px;
+        line-height: 20px;
+      }
+    }
+
+    .book-cover-img {
+      width: 176px;
+      height: 236px;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .book-btn-container {
+    margin-top: 10%;
+  }
+
+  .book {
+    display: none;
+  }
+
+  .no-book {
+    display: flex;
+    color: $red;
+    margin: 10% auto;
+  }
 }
