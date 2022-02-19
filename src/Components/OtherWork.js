@@ -64,7 +64,7 @@ const OtherWork = () => {
         </div>
         <div className='work'>
           <img className="work-img" src={pilgrimPassportCover} alt="Camino de Santiago Pilgrim Passport Cover" />
-          <a href={PilgrimPassport} className="work-link">Camino de Santiago Passport</a>
+          <a href={PilgrimPassport} className="work-link">500 miles on the Camino de Santiago</a>
         </div>
       </div>
     </div>

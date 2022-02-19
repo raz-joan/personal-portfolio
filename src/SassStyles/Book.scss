@@ -47,7 +47,7 @@ button {
 }
 
 .front .f1,
-.back .b3 {
+.back .b4 {
   h1 {
     font-family: $cursive;
     font-size: 28px;
@@ -58,7 +58,9 @@ button {
 .back .b1,
 .front .f2,
 .back .b2,
-.front .f3 {
+.front .f3,
+.back .b3,
+.front .f4 {
   @include flex(space-evenly, center, column);
   
   h1 {
@@ -68,6 +70,7 @@ button {
   
   p {
     max-width: 80%;
+    line-height: 24px;
   }
 }
 
@@ -122,15 +125,19 @@ button {
 
 /* Paper stack order */
 .p1 {
-    z-index: 3;
+  z-index: 4;
 }
 
 .p2 {
-    z-index: 2;
+  z-index: 3;
 }
 
 .p3 {
-    z-index: 1;
+  z-index: 2;
+}
+
+.p4 {
+  z-index: 1;
 }
 
 /* Paper flip effect */
@@ -151,6 +158,9 @@ button {
   z-index: 3;
 }
 
+.flippedP4 {
+  z-index: 4;
+}
 
 /* Book open & close and button effects */
 .openBook {

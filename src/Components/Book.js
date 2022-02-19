@@ -5,13 +5,14 @@ import mathImg from '../Assets/mathImg.png'
 import baker from '../Assets/baker.JPG'
 
 const Book = () => {
-  const numOfPages = 3
+  const numOfPages = 4
   const maxLocation = numOfPages + 1
   const [currentLocation, setCurrentLocation] = useState(1)
   const [bookTransform, setBookTransform] = useState('')
   const [p1Flip, setP1Flip] = useState('')
   const [p2Flip, setP2Flip] = useState('')
   const [p3Flip, setP3Flip] = useState('')
+  const [p4Flip, setP4Flip] = useState('')
 
   const openBook = () => {
     setBookTransform('openBook')
@@ -37,6 +38,9 @@ const Book = () => {
           break;
         case 3:
           setP3Flip("flipped flippedP3")
+          break;
+        case 4:
+          setP4Flip("flipped flippedP4")
           closeBook(false);
           break;
         default:
@@ -58,8 +62,12 @@ const Book = () => {
           setP2Flip('')
           break;
         case 4:
-          openBook()
+          // openBook()
           setP3Flip('')
+          break;
+        case 5:
+          openBook()
+          setP4Flip('')
           break;
         default:
           throw new Error("unkown state with currentLocation");
@@ -73,11 +81,11 @@ const Book = () => {
     <div className="book-btn-container">
       <button onClick={() => { goPrevPage() }}>Previous</button>
 
-      {/* <!-- Book --> */}
+      {/* Book */}
       
       <div className={`book ${bookTransform}`}>
 
-        {/* <!-- Paper 1 --> */}
+        {/* Paper 1 */}
         
         <div className={`paper p1 ${p1Flip}`}>
           <div className="front">
@@ -94,7 +102,7 @@ const Book = () => {
           </div>
         </div>
 
-        {/* <!-- Paper 2 --> */}
+        {/* Paper 2 */}
         
         <div className={`paper p2 ${p2Flip}`}>
           <div className="front">
@@ -109,31 +117,48 @@ const Book = () => {
           </div>
           <div className="back">
             <div className="b2 back-content">
-              <h1>The Poetry of Logical Ideas</h1>
               <img className='book-cover-img' src={mathImg} alt='Mathematics is the study of things that come out a certain way because there is no other way they could possibly be.'/>
-              {/* <p>My favorite mathematical endeavors were crafting concise, creative, and elegant proofs to theoretical problems. In particular, those that arose while studying (ordered) set theory and graph theory.</p> */}
             </div>
           </div>
         </div>
         
-        {/* <!-- Paper 3 --> */}
+        {/* Paper 3 */}
         
         <div className={`paper p3 ${p3Flip}`}>
           <div className="front">
             <div className="f3 front-content">
-              <h1>Sourdough Fermentation</h1>
-              <img className='book-cover-img' src={baker} alt='Joan holding bread.'/>
-              {/* <p>"Hearing, touching, smelling, seeing, and tasting -- bread is about all of these. The bread is always talking to us, and only when we open ourselves fully -- mind and senses together -- do we slowly begin to learn the subtle, but quite articulate, language of bread." - Jeffery Hamelman</p> */}
+              <h1>The Poetry of Logical Ideas</h1>
+              <p>My favorite mathematical endeavors were crafting concise, creative, and elegant proofs to theoretical problems.</p>
+              <p>In particular, those that arose while studying number theory, (ordered) set theory and graph theory.</p>
+              <p>Theory of probability and statistics were my other favorite courses.</p>
+              {/* <p>Beyond Calculus, I have studied: Linear Algebra, Abstract Algebra, Discrete Mathematics, Partial Differential Equations, Numerical Analysis, Real Analysis, Graph Theory, Set Theory, Ordered Set Theory, OOP and Data Structures, Theory of Probability, Theory of Statistics</p> */}
             </div>
           </div>
           <div className="back">
-            <div className="b3 back-content">
+            <div className="b3 back-content">              
+              <img className='book-cover-img' src={baker} alt='Joan holding bread.'/>
+            </div>
+          </div>
+        </div>
+
+        {/* Paper 4 */}
+
+        <div className={`paper p4 ${p4Flip}`}>
+          <div className="front">
+            <div className="f4 front-content">
+              <h1>Sourdough Fermentation</h1>
+              <p>"Hearing, touching, smelling, seeing, and tasting -- bread is about all of these. The bread is always talking to us, and only when we open ourselves fully -- mind and senses together -- do we slowly begin to learn the subtle, but quite articulate, language of bread."</p>
+              <p>     - Jeffery Hamelman</p>
+            </div>
+          </div>
+          <div className="back">
+            <div className="b4 back-content">
               <h1>This is a wonderful day. I have never seen this one before. - Maya Angelou</h1>
             </div>
           </div>
         </div>
       </div>
-      
+
       <button onClick={() => { goNextPage() }}>Next</button>
     </div>
   )
