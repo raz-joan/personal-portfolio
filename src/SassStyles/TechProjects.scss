@@ -83,6 +83,7 @@
 @media screen and (max-width: 550px) {
   .tech-projects-container {
     margin-top: 5%;
+    grid-gap: 0.5%;
   }
 
   .project {
@@ -90,7 +91,12 @@
       img {
         max-width: 90%;
         max-height: 60%;
+        margin: 1% auto;
       }
+    }
+
+    .project-details-container {
+      margin-bottom: 10%;
     }
   }
 }

@@ -48,7 +48,13 @@
 @media screen and (max-width: 550px) {
   .other-work-container {
     .works-container {
-      grid-gap: 1.5%;
+      grid-gap: 1%;
+
+      .work {
+        .work-link {
+          margin-bottom: 10%;
+        }
+      }
     }
   }
 }

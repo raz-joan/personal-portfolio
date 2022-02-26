@@ -61,6 +61,7 @@
 @media screen and (max-width: 850px) {
   .landing-container {
     @include flex(center, center, column);
+    margin-bottom: 10%;
   }
 
   .title-pic-container {
@@ -73,6 +74,6 @@
 
   .info-container {
     width: 80%;
-    margin-top: 2%;
+    margin-top: 5%;
   }
 }
