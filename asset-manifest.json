@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.7dc249bf.css",
+    "main.css": "/static/css/main.b5e68423.css",
     "main.js": "/static/js/main.e568ca8d.js",
     "static/media/sourdoughBread.pdf": "/static/media/sourdoughBread.77aa67662cf8057470ba.pdf",
     "static/media/PilgrimPassport.pdf": "/static/media/PilgrimPassport.73e48e06ea0746201731.pdf",
@@ -33,11 +33,11 @@
     "static/media/presidentsCover.png": "/static/media/presidentsCover.11b8382087c6353a4c2c.png",
     "static/media/resume.pdf": "/static/media/resume.ca2743fe6bc893d8c950.pdf",
     "index.html": "/index.html",
-    "main.7dc249bf.css.map": "/static/css/main.7dc249bf.css.map",
+    "main.b5e68423.css.map": "/static/css/main.b5e68423.css.map",
     "main.e568ca8d.js.map": "/static/js/main.e568ca8d.js.map"
   },
   "entrypoints": [
-    "static/css/main.7dc249bf.css",
+    "static/css/main.b5e68423.css",
     "static/js/main.e568ca8d.js"
   ]
 }
